@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #F3F5FC;
+}
+.container{
+    margin:1% auto;
+    width: 960px;
+    height: 560px;
+    padding: 5px;
+    background: #F3F5FC;
+}
+.logo{
+    width: 70%;
+    float: left;
+    background: #F3F5FC;
+}
+.logoimg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;/*Toma el valor de su padre en este caso left*/
+    background: #F3F5FC;
+}
+.title{
+    margin-left: 2%;
+    float: inherit;
+    background:  #F3F5FC;
+}
+.left{
+    width: 70%;
+    height: 65%;
+    float: left;
+    background: #F3F5FC;
+}
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 6%;
+    width: 80%;
+    height: 10%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;/*desactivamos el borde estatico*/
+    outline: none;/*Desabilita que aparezca los bordes cuando se esta escribiendo en la casilla(interactuando)*/
+    background: #F3F5FC;
+}
+.right{
+    width: 30%;
+    height: 100%;/*auto*/
+    float: right;
+    border-radius: 24px;
+    background: white;
+}
+#imgder{
+    margin-top: 20%;
+    margin-left: 2%;
+    width: 90%;
+    height: auto;
+}
+#texto1{
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align: center;
+}
+#texto2{
+    float: left;
+    margin-left: 8%;
+    width: 80%;
+    height: 18%;
+    color: #0A3871;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background: white;
+}
+#copiar{
+    width: 60%;
+    height: 10%;
+    margin-top: 20%;
+    margin-left: 20%;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-size: 20px;
+    border-radius: 24px;
+    background: #D8DFEB;
+    display: none;
+}
+.button{
+    width: 70%;
+    height: auto;
+    float: auto;
+    background: #F3F5FC;
+}
+p{
+    margin-left: 10%;
+}
+#btnencriptar{
+    width: 30%;
+    padding: 10px;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    color: #D8DFEB;
+    font-family: 'Inter';
+    font-size: 20px;
+    border-radius: 24px;
+    background: #0A3871;
+}
+#btndesencriptar{
+    width: 30%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-size: 20px;
+    border-radius: 24px;
+    background: #D8DFEB;
+}
+
+
