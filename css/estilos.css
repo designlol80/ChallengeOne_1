@@ -118,5 +118,15 @@ p{
     border-radius: 24px;
     background: #D8DFEB;
 }
-
+@media screen and (max-width:480px){
+    .container, .logo, .left, .text-input, .right, .button{
+        width: auto;
+    }
+    #imgder, #texto2, #copiar, #btnencriptar, #btndesencriptar{
+        width: auto;
+    }
+    p{
+        display: inline-block;
+    }
+}
 
